@@ -1,7 +1,7 @@
 <?php
 include('simple_html_dom.php');
 
-$parm='air+fryer&sprefix=air%2Caps%2C199&ref=nb_sb_ss_ts-doa-p_2_3';
+$parm='air%20fryer&ref=glow_cls&refresh=1&sprefix=air%2Caps%2C199';
 
 $html=file_get_html('https://www.amazon.com/s?k='.$parm);
 
@@ -10,7 +10,12 @@ $results=$html->find('div.s-result-item',3);
 $products = array(array());
 
 $products_img = array(array());
-$products_prices = array();
+$products_links = array(array());
+
+$products_prices = array(array());
+
+$products_ratings=array(array());
+
 
 
 
@@ -22,6 +27,13 @@ for ($i=0; $i < 10 ; $i++) {
     for ($j=0; $j < 5; $j++) { 
         $products[$i][$j]= $results->find('a.s-underline-text',$j);
         $products_img[$i][$j]= $results->find('div.s-product-image-container',$j);
+        $products_links[$i][$j]= $results->find('h2.a-size-mini',$j);
+
+        $products_prices[$i][$j]= $results->find('span.a-offscreen',$j);
+
+        $products_ratings[$i][$j]= $results->find('a.a-popover-trigger',$j); 
+        
+
         # code...
     }
 }
@@ -37,7 +49,7 @@ for ($i=0; $i < 10 ; $i++) {
 // // $output = $results->find('.a-size-medium',0);
 
 // // $output = $results->innertext;
-var_dump($products_img[0][0]->innertext);
+var_dump($products[4][0]->innertext);
 
 
 

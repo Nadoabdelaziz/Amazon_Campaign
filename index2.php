@@ -13,15 +13,39 @@ $results=$html->find('div.s-result-item',3);
 $products = array(array());
 
 $products_img = array(array());
-$products_prices = array();
+$products_links = array(array());
+$products_prices= array(array());
+
+$products_ratings=array(array());
 
 
-
-for ($i=0; $i < 9 ; $i++) { 
+for ($i=0; $i < 4 ; $i++) { 
     $results=$html->find('div.s-result-item',$i+3);
     for ($j=0; $j < 5; $j++) { 
         $products[$i][$j]= $results->find('a.s-underline-text',$j);
         $products_img[$i][$j]= $results->find('div.s-product-image-container',$j);
+        $products_links[$i][$j]= $results->find('h2.a-size-mini',$j);
+        $products_prices[$i][$j]= $results->find('span.a-offscreen',$j);
+        $products_ratings[$i][$j]= $results->find('a.a-popover-trigger',$j); 
+
+
+
+        # code...
+    }
+}
+
+
+for ($i=4; $i < 5 ; $i++) { 
+    $results=$html->find('div.s-result-item',$i+4);
+    for ($j=0; $j < 5; $j++) { 
+        $products[$i][$j]= $results->find('a.s-underline-text',$j);
+        $products_img[$i][$j]= $results->find('div.s-product-image-container',$j);
+        $products_links[$i][$j]= $results->find('h2.a-size-mini',$j);
+        $products_prices[$i][$j]= $results->find('span.a-offscreen',$j);
+
+        $products_ratings[$i][$j]= $results->find('a.a-popover-trigger',$j); 
+
+
 
         # code...
     }
@@ -122,22 +146,20 @@ for ($i=0; $i < 9 ; $i++) {
                                                 </ul>
                                         </div>
                                         <div class="user_features_box2">
-                                            <span><samp>9.6</samp></span>
+                                            <span style="font-size: revert;"><samp><?= $products_ratings[$i][0] ?></samp></span>
                                             <div class="stars_plugin"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
                                             <p style="font-size:19px;font-weight:700;margin-top:10px;color:#111 !important">
-                                                Excellent
+                                                <?= $products_prices[$i][0] ?>
                                             </p>
                                             <p style="font-size:14px;font-weight:700">
                                                 20,214 Purchases
                                             </p>
                                         </div>
                                         <div class="chat_now_box_plugin">
-                                            <a class="btn-style" title="" id="adword_url_sid" href="" target="_blank">
-                                                View Product
-                                            </a>
+                                                <?= $products_links[$i][0] ?>
 
 
-                                            <a id="adword_url_sid" href="" style="margin-top:10px;font-size:16px;" class="small_text" target="_blank">
+                                            <a class="idisa" href="" style="margin-top:10px;font-size:16px;" class="small_text" target="_blank">
                                                 Buy it on Amazon
                                             </a>
 
@@ -202,12 +224,27 @@ for ($i=0; $i < 9 ; $i++) {
 <script>
     
     var urls=document.getElementsByClassName("a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal");
+
+    var ahrefs=document.getElementsByClassName("idisa");
+
+    var rates=document.getElementsByClassName("a-icon-alt");
+
+
     
     for (var i = 0; i < urls.length; i++) {
+        urls[i].classList.add("btn-style");
         var x = urls[i].href;
         var str = urls[i].href.replace("http://localhost:8080","https://www.amazon.com");
-        var content = urls[i].textContent = "Available At Amazon";
+        var content = urls[i].textContent = "View Product";
         urls[i].href = str;
+        ahrefs[i].href=str;
+
+        var newstr = rates[i].textContent.replace("out of","/");
+
+        var newstr2 = newstr.replace("stars","");
+
+
+        rates[i].textContent = newstr2;
 
     }
 

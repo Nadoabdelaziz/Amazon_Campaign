@@ -4,7 +4,7 @@ include 'head.php';
 
 include('simple_html_dom.php');
 
-$parm='air+fryer&sprefix=air%2Caps%2C199&ref=nb_sb_ss_ts-doa-p_2_3';
+$parm='air%20fryer&ref=glow_cls&refresh=1&sprefix=air%2Caps%2C199';
 
 $html=file_get_html('https://www.amazon.com/s?k='.$parm);
 
@@ -18,6 +18,10 @@ $products_prices= array(array());
 
 $products_ratings=array(array());
 
+$products_numbers = array(array());
+
+$colors =array(array());
+
 
 for ($i=0; $i < 4 ; $i++) { 
     $results=$html->find('div.s-result-item',$i+3);
@@ -27,6 +31,9 @@ for ($i=0; $i < 4 ; $i++) {
         $products_links[$i][$j]= $results->find('h2.a-size-mini',$j);
         $products_prices[$i][$j]= $results->find('span.a-offscreen',$j);
         $products_ratings[$i][$j]= $results->find('a.a-popover-trigger',$j); 
+        $products_numbers[$i][$j] =$results->find('span.a-size-base',$j); 
+        $colors[$i][$j] = $results->find('div.a-spacing-top-mini',$j); 
+
 
 
 
@@ -44,6 +51,10 @@ for ($i=4; $i < 5 ; $i++) {
         $products_prices[$i][$j]= $results->find('span.a-offscreen',$j);
 
         $products_ratings[$i][$j]= $results->find('a.a-popover-trigger',$j); 
+        $products_numbers[$i][$j] =$results->find('span.a-size-base',$j); 
+        $colors[$i][$j] = $results->find('div.a-spacing-top-mini',$j); 
+
+
 
 
 
@@ -86,6 +97,15 @@ for ($i=4; $i < 5 ; $i++) {
 
             .home-banner.home-review {
                 height: 1000px;
+            }
+            span.a-size-base.s-underline-text{
+                display: initial;
+            }
+            span.a-size-base.a-color-secondary{
+                display:block;
+            }
+            a.a-link-normal.s-underline-text.s-underline-link-text.s-link-style.a-text-normal.btn-style{
+                font-size:x-large;
             }
         </style>
         <section class="home-banner " style="background: url('wp-content/uploads/2020/03/banner-img.jpg');">
@@ -138,10 +158,15 @@ for ($i=4; $i < 5 ; $i++) {
                                                   
 
                                                     
-
+                                                <?php
+                                                if(isset($colors[$i][0])){
+                                                ?>
                                                     <li>
-                                                        COSORI
+                                                        <?= $colors[$i][0] ?>
                                                     </li>
+                                                <?php
+                                                }       
+                                                    ?>    
 
                                                 </ul>
                                         </div>
@@ -152,7 +177,7 @@ for ($i=4; $i < 5 ; $i++) {
                                                 <?= $products_prices[$i][0] ?>
                                             </p>
                                             <p style="font-size:14px;font-weight:700">
-                                                20,214 Purchases
+                                               <?= $products_numbers[$i][0] ?> Purchases
                                             </p>
                                         </div>
                                         <div class="chat_now_box_plugin">
@@ -217,13 +242,14 @@ for ($i=4; $i < 5 ; $i++) {
 
 
 
-
 </body>
 </html>
 
 <script>
     
     var urls=document.getElementsByClassName("a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal");
+
+    var urls2=document.getElementsByClassName("a-link-normal s-underline-text s-underline-link-text");
 
     var ahrefs=document.getElementsByClassName("idisa");
 
@@ -233,10 +259,19 @@ for ($i=4; $i < 5 ; $i++) {
     
     for (var i = 0; i < urls.length; i++) {
         urls[i].classList.add("btn-style");
+
         var x = urls[i].href;
+        var y = urls2[i].href;
+
         var str = urls[i].href.replace("http://localhost:8080","https://www.amazon.com");
+        var str2 = urls2[i].href.replace("http://localhost:8080","https://www.amazon.com");
+
         var content = urls[i].textContent = "View Product";
+
         urls[i].href = str;
+        urls2[i].href = str2;
+
+
         ahrefs[i].href=str;
 
         var newstr = rates[i].textContent.replace("out of","/");
@@ -247,6 +282,6 @@ for ($i=4; $i < 5 ; $i++) {
         rates[i].textContent = newstr2;
 
     }
-
     
 </script>
+

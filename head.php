@@ -1989,6 +1989,7 @@
 
 
 <script>
+
         function changeAdwordURL()
         {
             var url_string = window.location.href;
@@ -2041,4 +2042,8 @@
             }
         }
         comparisonTableOrder();
-        </script>
+</script>
+
+
+
+

@@ -1,6 +1,33 @@
 <?php
 include('simple_html_dom.php');
 
+$modules=array();
+// db connection
+$servername = "localhost";
+$username = "nada_zizo";
+$password = "Abcd2468@";
+$dbname = "amazon";
+
+
+// Create connection
+$conn = new mysqli($servername, $username, $password,$dbname);
+
+$sql = "SELECT title FROM modules";
+
+$result = $conn->query($sql);
+
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+      echo $row["title"]. "<br>";
+      array_push($modules,$row["title"]);
+    }
+  } else {
+    echo "0 results";
+  }
+
+
 $parm='air%20fryer&ref=glow_cls&refresh=1&sprefix=air%2Caps%2C199';
 
 $html=file_get_html('https://www.amazon.com/s?k='.$parm);
@@ -16,15 +43,19 @@ $products_prices = array(array());
 
 $products_ratings=array(array());
 
+$shipments = array(array());
+
+$colors = array(array());
 
 
 
 
 for ($i=0; $i < 10 ; $i++) { 
-    $results=$html->find('div.s-result-item',$i+3);
+        $results=$html->find('div.s-result-item',$i+3);
     // $img_results=$html->find('div.s-product-image-container',$i+3);
 
     for ($j=0; $j < 5; $j++) { 
+
         $products[$i][$j]= $results->find('a.s-underline-text',$j);
         $products_img[$i][$j]= $results->find('div.s-product-image-container',$j);
         $products_links[$i][$j]= $results->find('h2.a-size-mini',$j);
@@ -32,6 +63,10 @@ for ($i=0; $i < 10 ; $i++) {
         $products_prices[$i][$j]= $results->find('span.a-offscreen',$j);
 
         $products_ratings[$i][$j]= $results->find('a.a-popover-trigger',$j); 
+
+        $shipments[$i][$j] =$results->find('span.a-size-base',$j); 
+
+        $colors[$i][$j] = $results->find('div.a-spacing-top-mini',$j); 
         
 
         # code...
@@ -49,7 +84,7 @@ for ($i=0; $i < 10 ; $i++) {
 // // $output = $results->find('.a-size-medium',0);
 
 // // $output = $results->innertext;
-var_dump($products[4][0]->innertext);
+var_dump($colors[0][0]->innertext);
 
 
 

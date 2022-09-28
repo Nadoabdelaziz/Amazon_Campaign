@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\HomeController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,9 +16,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index2');
+    return view('welcome');
 });
 
 Route::get('one', function () {
     return view('onepage');
 });
+
+
+Route::get('category_show/{category}','App\Http\Controllers\HomeController@index')->name('category');

@@ -3,23 +3,7 @@
 
 @include('partials.simple_html_dom');
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
- <div class="container-fluid">
-  <!-- <a class="navbar-brand" href="#">Brand</a> -->
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="main_nav">
-	<ul class="navbar-nav">
-        @foreach($categories as $cat)
-		<li class="nav-item">
-            <a class="nav-link" href="#">{{$cat->name}} </a> 
-        </li>
-		@endforeach
-	</ul>
-  </div> <!-- navbar-collapse.// -->
- </div> <!-- container-fluid.// -->
-</nav>
+@include('partials.nav')
 
 <body class="page-template page-template-page-templates page-template-template-chat-table-switcher page-template-page-templatestemplate-chat-table-switcher-php page page-id-2639 wp-custom-logo wp-embed-responsive">
 
@@ -64,9 +48,9 @@
         </style>
 
 
-        @foreach($categories as $cat)
+        <!-- @foreach($categories as $cat) -->
             @include('partials.scrape')
-        @endforeach
+        <!-- @endforeach -->
         <!-- ******************* The Footer Full-width Widget Area ******************* -->
         <div class="wrapper" id="wrapper-footer-full">
             <div class="custom-container">
@@ -105,33 +89,29 @@
 	.navbar .nav-item:hover .nav-link{   }
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-}
+    }
 
-.navbar{
-    margin: 80px;
-}
+    #main_nav{
+        justify-content: center;
 
-#main_nav{
-    justify-content: center;
+    }
 
-}
+    .nav-item{
+        padding-right: 50px;
 
-.nav-item{
-    padding-right: 50px;
+    }
 
-}
-
-.nav-link{
-    color: white;
-    font-family: serif;
-    font-size: x-large;
+    .nav-link{
+        color: white;
+        font-family: serif;
+        font-size: x-large;
 
 
-}
+    }
 
-.navbar-nav{
-    padding: 11px;
+    .navbar-nav{
+        padding: 11px;
 
-}
+    }
 </style>
 

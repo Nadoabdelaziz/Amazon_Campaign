@@ -1,123 +1,128 @@
-
-
 @include('partials.head');
 
 @include('partials.simple_html_dom');
 
 
-
 <?php
 
-// $modules=array();
-// // db connection
-// $servername = "localhost";
-// $username = "nada_zizo";
-// $password = "Abcd2468@";
-// $dbname = "amazon";
 
+$parm='air%20fryer&ref=glow_cls&refresh=1&sprefix=air%2Caps%2C199';
 
-// // Create connection
-// $conn = new mysqli($servername, $username, $password,$dbname);
-
-// $sql = "SELECT title FROM modules";
-
-// $result = $conn->query($sql);
-
-
-// if ($result->num_rows > 0) {
-//     // output data of each row
-//     while($row = $result->fetch_assoc()) {
-//       echo $row["title"]. "<br>";
-//       array_push($modules,$row["title"]);
-//     }
-//   }
-// else {
-//     echo "0 results";
-// }
-
-
-$parm='s?i=hpc-intl-ship&bbn=16225010011&rh=n%3A10079992011%2Cn%3A13213824011%2Cn%3A13213826011&dc&ds=v1%3AEE8c2tYSufD6KzWqtsguRQTNlNntK%2FwQchGwo4aLM04&qid=1664374451&rnid=13213824011&ref=sr_nr_n_5';
-
-$html=file_get_html('https://www.amazon.com/'.$parm);
-
-$results=$html->find('div.s-result-item',3);
-
-$products = array(array());
-
-$products_img = array(array());
-$products_links = array(array());
-
-$products_prices = array(array());
-
-$products_ratings=array(array());
-
-$shipments = array(array());
-
-$colors = array(array());
-
-
-
+$html=file_get_html('https://buyersguide.org/office-chairs/t/best');
 
 for ($i=0; $i < 10 ; $i++) { 
-        $results=$html->find('div.s-result-item',$i+3);
-    // $img_results=$html->find('div.s-product-image-container',$i+3);
 
-    for ($j=0; $j < 5; $j++) { 
+$results=$html->find('div.item-card',$i);
 
-        $products[$i][$j]= $results->find('a.s-underline-text',$j);
-        $products_img[$i][$j]= $results->find('div.s-product-image-container',$j);
-        $products_links[$i][$j]= $results->find('h2.a-size-mini',$j);
+$result_m[$i] = $results->find('div.detail_text',1);
 
-        $products_prices[$i][$j]= $results->find('span.a-offscreen',$j);
+$title[$i] = $results->find('strong',1);
 
-        $products_ratings[$i][$j]= $results->find('a.a-popover-trigger',$j); 
+$img[$i] = $results->find('img',3);
 
-        $shipments[$i][$j] =$results->find('span.a-size-base',$j); 
 
-        $colors[$i][$j] = $results->find('div.a-spacing-top-mini',$j); 
-        
+print_r($title[$i]);
+// echo $result_m[$i]."\n";
 
-        # code...
-    }
+// echo $title[$i]."\n";
+
 }
-// $newresults=$results->find('a.s-underline-text',0);
 
-// $results=$html->find('a.s-underline-text',0);
-
-// $products = array();
-// foreach($results->find('.s-result-item') as $element)
-//     array_push($products, $element->innertext);
-
-// // var_dump($products);
-// // $output = $results->find('.a-size-medium',0);
-
-// // $output = $results->innertext;
-
-var_dump($results->innertext);
-// var_dump($colors[0][0]->innertext);
-
-
-// echo $categories;
+// echo $result_m[1]."\n";
 
 ?>
 
 
-<style>
-    
-</style>
 
-<script>
-    
-    var urls=document.getElementsByClassName("a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal");
-    
-    for (var i = 0; i < urls.length; i++) {
-        var x = urls[i].href;
-        var str = urls[i].href.replace("http://localhost:8080","https://www.amazon.com");
-        var content = urls[i].textContent = "Available At Amazon";
-        urls[i].href = str;
+
+<body
+    class="page-template page-template-page-templates page-template-template-chat-table-switcher page-template-page-templatestemplate-chat-table-switcher-php page page-id-2639 wp-custom-logo wp-embed-responsive">
+
+    <!DOCTYPE html>
+
+
+
+
+
+    <style>
+    .button-logo {
+        display: none;
+    }
+
+    .a-icon-alt {
+        font-size: x-large;
+        font-weight: 800;
+    }
+
+    .a-text-normal {
+        font-size: initial;
+        font-weight: 600;
+    }
+
+    @media all and (min-width: 992px) {
+        .navbar .nav-item .dropdown-menu {
+            display: none;
+        }
+
+        .navbar .nav-item:hover .nav-link {}
+
+        .navbar .nav-item:hover .dropdown-menu {
+            display: block;
+        }
+
+        .navbar .nav-item .dropdown-menu {
+            margin-top: 0;
+        }
+    }
+
+    #main_nav {
+        justify-content: center;
 
     }
 
-    
-</script>
+    .nav-item {
+        padding-right: 50px;
 
+    }
+
+    .nav-link {
+        color: white;
+        font-family: serif;
+        font-size: x-large;
+
+
+    }
+
+    .navbar-nav {
+        padding: 11px;
+
+    }
+    </style>
+
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <script>
+    window.addEventListener("load", () => {
+
+        img = $('img.lazyload');
+        for (let i = 0; i < 10; i++) {
+            img[i].src = String(img[i].getAttribute("data-src"));
+
+        }
+    });
+
+    var link = document.getElementById('link');
+
+    // alert(link.innerText);
+    var urls = document.getElementsByClassName(
+        "a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal");
+
+    for (var i = 0; i < urls.length; i++) {
+        var x = urls[i].href;
+        var str = urls[i].href.replace("http://127.0.0.1:8001/", "https://www.amazon.com/");
+        var content = urls[i].textContent = "Available At Amazon";
+        urls[i].href = str;
+    }
+    </script>

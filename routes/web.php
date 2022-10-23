@@ -15,6 +15,27 @@ use App\Http\Controllers\HomeController;
 |
 */
 
+Route::get('/try', function() {
+    Artisan::call('make:model nada');
+});
+
+Route::get('one', function () {
+    return view('onepage');
+});
+
+Route::get('verify', function () {
+    return view('VerifyCats');
+});
+
+Route::get('addCat','App\Http\Controllers\HomeController@AddCat')->name('addCat');
+
+Route::get('LoadData/{category}','App\Http\Controllers\HomeController@LoadData')->name('LoadData');
+
+
+Route::get('add', function () {
+    return view('AddCategory');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });

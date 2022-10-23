@@ -124,7 +124,7 @@ input:checked + .slider:before {
 }
 .top-bond-inner-plugin h2 {
 	text-align: center;
-	padding: 42px 0 42px;
+	padding: 42px 0 26px;
 	margin: 0;
 	font-size: 31px;
 	color: #000;

@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="en-GB">
-<head>
+
+    <head>
 
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="profile" href="https://gmpg.org/xfn/11">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="profile" href="https://gmpg.org/xfn/11">
+        <link rel="stylesheet" href="css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
-    <title>Best Air Fryers Of 2022</title>
-    <meta name="robots" content="noindex,follow" />
-    <meta property="og:locale" content="en_GB" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="CompareWarrior - Amazon Tool" />
-    <meta property="og:description" content="Robot Offer Properties Rating Trade Min Deposit $/£ 250Professional trading indicatorsTrade with the Most Popular CryptocurrenciesAll major credit and debit cards accepted 9.7 Trade Now Reviews Reviews Create your account Hide Reviews [...]Read More..." />
+        <title>Best Air Fryers Of 2022</title>
+        <meta name="robots" content="noindex,follow" />
+        <meta property="og:locale" content="en_GB" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="CompareWarrior - Amazon Tool" />
+        <meta property="og:description"
+            content="Robot Offer Properties Rating Trade Min Deposit $/£ 250Professional trading indicatorsTrade with the Most Popular CryptocurrenciesAll major credit and debit cards accepted 9.7 Trade Now Reviews Reviews Create your account Hide Reviews [...]Read More..." />
 
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:description" content="Robot Offer Properties Rating Trade Min Deposit $/£ 250Professional trading indicatorsTrade with the Most Popular CryptocurrenciesAll major credit and debit cards accepted 9.7 Trade Now Reviews Reviews Create your account Hide Reviews [...]Read More..." />
-    <meta name="twitter:title" content="CompareWarrior - Amazon Tool" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:description"
+            content="Robot Offer Properties Rating Trade Min Deposit $/£ 250Professional trading indicatorsTrade with the Most Popular CryptocurrenciesAll major credit and debit cards accepted 9.7 Trade Now Reviews Reviews Create your account Hide Reviews [...]Read More..." />
+        <meta name="twitter:title" content="CompareWarrior - Amazon Tool" />
 
-    <style type="text/css">
+        <style type="text/css">
         img.wp-smiley,
         img.emoji {
             display: inline !important;
@@ -33,18 +39,25 @@
             background: none !important;
             padding: 0 !important;
         }
-    </style>
-    <link rel='stylesheet' id='wp-block-library-css' href="{{url('style.min-ver=50e093fb8899b24b781a371c0ff295e2.css')}}" type='text/css' media='all' />
-    <link rel='stylesheet' id='psv-landing-pages-styles-css' href='{{url("finixio-lp-ver=1589807735.css")}}' type='text/css' media='all' />
-    <link rel='stylesheet' id='child-understrap-styles-css' href='{{url("child-theme.min-ver=0.5.3.css")}}' type='text/css' media='all' />
-    <link rel='stylesheet' id='theme-override-css' href='{{url("brand-ver=0.1.0.css")}}' type='text/css' media='all' />
-    <link rel='stylesheet' id='theme-css' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css?ver=0.1.0' type='text/css' media='all' />
+        </style>
+        <link rel='stylesheet' id='wp-block-library-css'
+            href="{{url('style.min-ver=50e093fb8899b24b781a371c0ff295e2.css')}}" type='text/css' media='all' />
+        <link rel='stylesheet' id='psv-landing-pages-styles-css' href='{{url("finixio-lp-ver=1589807735.css")}}'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='child-understrap-styles-css' href='{{url("child-theme.min-ver=0.5.3.css")}}'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='theme-override-css' href='{{url("brand-ver=0.1.0.css")}}' type='text/css'
+            media='all' />
+        <link rel='stylesheet' id='theme-css'
+            href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css?ver=0.1.0'
+            type='text/css' media='all' />
 
 
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 
-    <script type='text/javascript'>
-        (function ($) {
-            $(function () {
+        <script type='text/javascript'>
+        (function($) {
+            $(function() {
                 $(".wpcf7-countrytext").countrySelect({
                     defaultCountry: "de",
                 });
@@ -58,24 +71,24 @@
                 });
             });
         })(jQuery);
-    </script>
-    <!--<script type='text/javascript' src='wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker-ver=1.11.2.js'></script>-->
-    <link rel='https://api.w.org/' href='{{url("wp-json/index.json")}}' />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="index-rsd.html" />
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
+        </script>
+        <!--<script type='text/javascript' src='wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker-ver=1.11.2.js'></script>-->
+        <link rel='https://api.w.org/' href='{{url("wp-json/index.json")}}' />
+        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="index-rsd.html" />
+        <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
 
 
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <style type="text/css">
+        <style type="text/css">
         .recentcomments a {
             display: inline !important;
             padding: 0 !important;
             margin: 0 !important;
         }
-    </style>
-    <style type="text/css" id="wp-custom-css">
+        </style>
+        <style type="text/css" id="wp-custom-css">
         /*table-css*/
         /*TABLE-UPDATED*/
         #comparision_table_up {
@@ -113,19 +126,19 @@
             margin: 0;
         }
 
-            .compar_tbl_sec_header li {
-                display: table-cell;
-                vertical-align: middle;
-            }
+        .compar_tbl_sec_header li {
+            display: table-cell;
+            vertical-align: middle;
+        }
 
-            .compar_tbl_sec_header li {
-                padding: 12px 10px;
-                font-weight: 300;
-                border-bottom: none;
-                font-family: 'Roboto', sans-serif;
-                float: left;
-                margin: 0;
-            }
+        .compar_tbl_sec_header li {
+            padding: 12px 10px;
+            font-weight: 300;
+            border-bottom: none;
+            font-family: 'Roboto', sans-serif;
+            float: left;
+            margin: 0;
+        }
 
         .compar_tbl_body {
             width: 100%;
@@ -133,20 +146,20 @@
             border: 1px solid #dfdfdf;
         }
 
-            .compar_tbl_body .compar_tbl_row {
-                width: 100%;
-                float: left;
-                border-bottom: 1px solid #dfdfdf;
-                padding: 10px 0px;
-            }
+        .compar_tbl_body .compar_tbl_row {
+            width: 100%;
+            float: left;
+            border-bottom: 1px solid #dfdfdf;
+            padding: 10px 0px;
+        }
 
-                .compar_tbl_body .compar_tbl_row:nth-child(2n) {
-                    background-color: #f7f7f7 !important;
-                }
+        .compar_tbl_body .compar_tbl_row:nth-child(2n) {
+            background-color: #f7f7f7 !important;
+        }
 
-                .compar_tbl_body .compar_tbl_row:last-child {
-                    border-bottom: none;
-                }
+        .compar_tbl_body .compar_tbl_row:last-child {
+            border-bottom: none;
+        }
 
         .compar_tbl_sec_header li:first-child {
             width: 5%;
@@ -181,7 +194,7 @@
             font-weight: 900;
         }
 
-        .compar_tbl_body .compar_tbl_row > div {
+        .compar_tbl_body .compar_tbl_row>div {
             padding: 0;
             display: inline-block;
             vertical-align: middle;
@@ -205,12 +218,12 @@
             height: 123px;
         }
 
-            .compar_tbl_body a.compar_tbl_website_img img {
-                width: 100%;
-                height: 100%;
-                object-fit: contain;
-                box-shadow: 0 0 2px #000;
-            }
+        .compar_tbl_body a.compar_tbl_website_img img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            box-shadow: 0 0 2px #000;
+        }
 
         .compar_tbl_body.compar_tbl_body .most_popu_img_text {
             width: 100%;
@@ -260,34 +273,34 @@
             padding: 0 !important;
         }
 
-            .compar_tbl_body .rating_offers_sec > div {
-                padding: 9px 10px;
-                display: inline-block;
-                vertical-align: middle;
-                float: none;
-            }
+        .compar_tbl_body .rating_offers_sec>div {
+            padding: 9px 10px;
+            display: inline-block;
+            vertical-align: middle;
+            float: none;
+        }
 
         .compar_tbl_body .user_rating_box {
             width: 56%;
         }
 
-            .compar_tbl_body .user_rating_box .kk-star-ratings.lft {
-                float: none !important;
-                margin: auto !important;
-            }
+        .compar_tbl_body .user_rating_box .kk-star-ratings.lft {
+            float: none !important;
+            margin: auto !important;
+        }
 
-            .compar_tbl_body .user_rating_box a.expe_review {
-                float: left;
-                color: #39ade5;
-                font-weight: 300;
-                font-size: 14px;
-                width: 100%;
-                margin-top: 5px;
-            }
+        .compar_tbl_body .user_rating_box a.expe_review {
+            float: left;
+            color: #39ade5;
+            font-weight: 300;
+            font-size: 14px;
+            width: 100%;
+            margin-top: 5px;
+        }
 
-                .compar_tbl_body .user_rating_box a.expe_review:hover {
-                    color: #e2b511;
-                }
+        .compar_tbl_body .user_rating_box a.expe_review:hover {
+            color: #e2b511;
+        }
 
         .compar_tbl_body .user_offer_box {
             width: 42%;
@@ -301,125 +314,125 @@
             width: 22%;
         }
 
-            .compar_tbl_body .user_features_box ul {
-                padding: 0;
-                list-style: none;
-                margin: 0;
-                display: flex;
-                flex-wrap: wrap;
-                display: -webkit-flex;
-                -webkit-flex-wrap: wrap;
-                text-align: left;
-            }
+        .compar_tbl_body .user_features_box ul {
+            padding: 0;
+            list-style: none;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            display: -webkit-flex;
+            -webkit-flex-wrap: wrap;
+            text-align: left;
+        }
 
-            .compar_tbl_body .user_features_box li {
-                width: 100%;
-                float: left;
-                margin: 0 0 8px;
-                font-size: 15px;
-                color: #4b4a4a;
-                min-height: 22px;
-                font-weight: 400;
-                line-height: 22px;
-                display: flex;
-                display: -webkit-flex;
-                align-items: flex-start;
-                -webkit-align-items: flex-start;
-                word-break: break-word;
-                position: relative;
-                padding-left: 20px;
-                padding-bottom: 0;
-                font-family: 'Roboto', sans-serif;
-            }
+        .compar_tbl_body .user_features_box li {
+            width: 100%;
+            float: left;
+            margin: 0 0 8px;
+            font-size: 15px;
+            color: #4b4a4a;
+            min-height: 22px;
+            font-weight: 400;
+            line-height: 22px;
+            display: flex;
+            display: -webkit-flex;
+            align-items: flex-start;
+            -webkit-align-items: flex-start;
+            word-break: break-word;
+            position: relative;
+            padding-left: 20px;
+            padding-bottom: 0;
+            font-family: 'Roboto', sans-serif;
+        }
 
-                .compar_tbl_body .user_features_box li img {
-                    margin: 2px 8px 0px 0;
-                    display: none;
-                }
+        .compar_tbl_body .user_features_box li img {
+            margin: 2px 8px 0px 0;
+            display: none;
+        }
 
-            .compar_tbl_body .user_features_box .fa-ul {
-            }
+        .compar_tbl_body .user_features_box .fa-ul {}
 
-                .compar_tbl_body .user_features_box .fa-ul li .fa-li i {
-                    font-size: 18px;
-                }
+        .compar_tbl_body .user_features_box .fa-ul li .fa-li i {
+            font-size: 18px;
+        }
 
-                .compar_tbl_body .user_features_box .fa-ul li .fa-li {
-                    color: #00af79;
-                    left: -1em;
-                    position: absolute;
-                    text-align: center;
-                    width: 2em;
-                    line-height: inherit;
-                }
+        .compar_tbl_body .user_features_box .fa-ul li .fa-li {
+            color: #00af79;
+            left: -1em;
+            position: absolute;
+            text-align: center;
+            width: 2em;
+            line-height: inherit;
+        }
 
-            .compar_tbl_body .user_features_box li::before {
-                font-family: 'FontAwesome';
-                margin: 0;
-                background: #00af79;
-                color: #fff;
-                font-size: 10px;
-                -moz-border-radius: 50%;
-                -webkit-border-radius: 50%;
-                border-radius: 50%;
-                padding: 3px 4px;
-                position: relative;
-                left: -10px;
-                line-height: 12px;
-                top: 2px;
-            }
+        .compar_tbl_body .user_features_box li::before {
+            font-family: 'FontAwesome';
+            margin: 0;
+            background: #00af79;
+            color: #fff;
+            font-size: 10px;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            padding: 3px 4px;
+            position: relative;
+            left: -10px;
+            line-height: 12px;
+            top: 2px;
+        }
 
         .compar_tbl_body .chat_now_box {
             width: 22%;
         }
 
-            .compar_tbl_body .chat_now_box .customlink {
-                padding: 0px 10px;
-                background-color: #eb9a11;
-                font-size: 16px;
-                font-weight: 700;
-                margin: 0px auto 10px;
-                cursor: pointer;
-                outline: none;
-                font-weight: 700;
-                color: #fff;
-                border: none;
-                border-radius: 2px;
-                height: 50px;
-                width: 100%;
-                border: 1px solid #eb9a11;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                display: -webkit-flex;
-                -webkit-align-items: center;
-                -webkit-justify-content: center;
-                float: none;
-                font-family: 'Roboto', sans-serif;
-            }
+        .compar_tbl_body .chat_now_box .customlink {
+            padding: 0px 10px;
+            background-color: #eb9a11;
+            font-size: 16px;
+            font-weight: 700;
+            margin: 0px auto 10px;
+            cursor: pointer;
+            outline: none;
+            font-weight: 700;
+            color: #fff;
+            border: none;
+            border-radius: 2px;
+            height: 50px;
+            width: 100%;
+            border: 1px solid #eb9a11;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            display: -webkit-flex;
+            -webkit-align-items: center;
+            -webkit-justify-content: center;
+            float: none;
+            font-family: 'Roboto', sans-serif;
+        }
 
-                .compar_tbl_body .chat_now_box .customlink:hover {
-                    background-color: #cb7a00;
-                    box-shadow: none;
-                    text-decoration: none;
-                    color: #fff !important;
-                }
+        .compar_tbl_body .chat_now_box .customlink:hover {
+            background-color: #cb7a00;
+            box-shadow: none;
+            text-decoration: none;
+            color: #fff !important;
+        }
 
-            .compar_tbl_body .chat_now_box a.cht_now_numb::before {
-                position: relative;
-                content: "\f095";
-                left: 0;
-                font-family: 'FontAwesome';
-                top: 0;
-                font-size: 16px;
-                color: #fff;
-                margin-right: 10px;
-                text-decoration: none !important;
-            }
+        .compar_tbl_body .chat_now_box a.cht_now_numb::before {
+            position: relative;
+            content: "\f095";
+            left: 0;
+            font-family: 'FontAwesome';
+            top: 0;
+            font-size: 16px;
+            color: #fff;
+            margin-right: 10px;
+            text-decoration: none !important;
+        }
 
-            .compar_tbl_body .chat_now_box a.cht_now_numb:hover, .compar_tbl_body .chat_now_box a.cht_now_numb:hover:before {
-                color: #fff;
-            }
+        .compar_tbl_body .chat_now_box a.cht_now_numb:hover,
+        .compar_tbl_body .chat_now_box a.cht_now_numb:hover:before {
+            color: #fff;
+        }
 
         .user_rating_box_mbl {
             display: none !important;
@@ -556,6 +569,7 @@
         a.expe_review {
             display: none;
         }
+
         /*withsidebar-end*/
 
 
@@ -589,9 +603,10 @@
             padding: 0 !important;
         }
 
-            .page-id-1089 .user_features_box2 .fa {
-                font: normal normal normal 14px/1 FontAwesome !important;
-            }
+        .page-id-1089 .user_features_box2 .fa {
+            font: normal normal normal 14px/1 FontAwesome !important;
+        }
+
         /*table-responsive*/
 
         /* Bitcoinminer-PAGE-CSS-START */
@@ -608,12 +623,12 @@
             margin-bottom: 10px;
         }
 
-            .bitcoinminer_banner_head h1 span {
-                color: #ffae11;
-                display: block;
-                font-size: 130%;
-                margin-bottom: 10px;
-            }
+        .bitcoinminer_banner_head h1 span {
+            color: #ffae11;
+            display: block;
+            font-size: 130%;
+            margin-bottom: 10px;
+        }
 
         .instant_access_form_out {
             max-width: 520px;
@@ -631,13 +646,13 @@
             border-radius: 12px;
         }
 
-            .get_instant_access_form h3 {
-                margin-bottom: 22px;
-                font-size: 26px;
-                line-height: 28px;
-                color: #ffae11;
-                font-family: Kadwa,serif;
-            }
+        .get_instant_access_form h3 {
+            margin-bottom: 22px;
+            font-size: 26px;
+            line-height: 28px;
+            color: #ffae11;
+            font-family: Kadwa, serif;
+        }
 
         .form_field_row {
             width: 100%;
@@ -701,31 +716,31 @@
             outline: none;
         }
 
-            .form_button_row input[type="submit"]:hover {
-                background-color: #00a9cc;
-            }
+        .form_button_row input[type="submit"]:hover {
+            background-color: #00a9cc;
+        }
 
         .form_bottom_cont_row {
             width: 100%;
             float: left;
         }
 
-            .form_bottom_cont_row p {
-                font-size: 13px;
-                margin: 0;
-                color: #000;
-                text-align: center;
-            }
+        .form_bottom_cont_row p {
+            font-size: 13px;
+            margin: 0;
+            color: #000;
+            text-align: center;
+        }
 
-                .form_bottom_cont_row p a {
-                    color: #ffae11;
-                    display: inline-block;
-                }
+        .form_bottom_cont_row p a {
+            color: #ffae11;
+            display: inline-block;
+        }
 
-                    .form_bottom_cont_row p a:hover {
-                        text-decoration: underline;
-                        color: #00a9cc;
-                    }
+        .form_bottom_cont_row p a:hover {
+            text-decoration: underline;
+            color: #00a9cc;
+        }
 
         .instant_access_form_out .wpcf7-response-output {
             color: #398f14;
@@ -739,10 +754,10 @@
             padding: 8px;
         }
 
-            .instant_access_form_out .wpcf7-response-output.wpcf7-validation-errors {
-                color: #f00;
-                border-color: #f00;
-            }
+        .instant_access_form_out .wpcf7-response-output.wpcf7-validation-errors {
+            color: #f00;
+            border-color: #f00;
+        }
 
         .join_btc_miner_out {
             padding: 80px 0 60px;
@@ -758,13 +773,13 @@
             font-size: 20px;
         }
 
-            .join_btc_miner_cont a {
-                color: #ff8f31;
-            }
+        .join_btc_miner_cont a {
+            color: #ff8f31;
+        }
 
-                .join_btc_miner_cont a:hover {
-                    text-decoration: underline;
-                }
+        .join_btc_miner_cont a:hover {
+            text-decoration: underline;
+        }
 
         .join_btc_miner_out h2 {
             color: #fff;
@@ -785,10 +800,11 @@
             margin: 0;
         }
 
-            .join_btc_miner_cont ul li {
-                margin-bottom: 12px;
-                position: relative;
-            }
+        .join_btc_miner_cont ul li {
+            margin-bottom: 12px;
+            position: relative;
+        }
+
         /* .join_btc_miner_cont ul li span{
             position:relative;
         }
@@ -808,9 +824,9 @@
             background-color: #ffae11;
         }
 
-            .more_news_outer .container-fluid {
-                padding: 0;
-            }
+        .more_news_outer .container-fluid {
+            padding: 0;
+        }
 
         .more_news_box {
             padding: 0;
@@ -821,10 +837,10 @@
             padding: 0;
         }
 
-            .more_news_img img {
-                max-width: 100%;
-                width: 100%;
-            }
+        .more_news_img img {
+            max-width: 100%;
+            width: 100%;
+        }
 
         .more_news_bottom_cont {
             position: absolute;
@@ -835,12 +851,12 @@
             font-size: 18px;
             line-height: 28px;
             font-weight: bold;
-            font-family: Kadwa,serif;
+            font-family: Kadwa, serif;
         }
 
-            .more_news_bottom_cont p {
-                margin: 0;
-            }
+        .more_news_bottom_cont p {
+            margin: 0;
+        }
 
         .more_news_box a.more_news_link {
             top: 0;
@@ -858,28 +874,30 @@
             padding: 0 15px;
         }
 
-            .more_news_inr h2 span {
-                position: relative;
-                display: inline-block;
-                padding: 0 70px;
-            }
+        .more_news_inr h2 span {
+            position: relative;
+            display: inline-block;
+            padding: 0 70px;
+        }
 
-                .more_news_inr h2 span:before, .more_news_inr h2 span:after {
-                    width: 53px;
-                    height: 4px;
-                    background-color: #fff;
-                    content: "";
-                    top: 0;
-                    position: absolute;
-                    bottom: 0;
-                    margin: auto;
-                    left: 0;
-                }
+        .more_news_inr h2 span:before,
+        .more_news_inr h2 span:after {
+            width: 53px;
+            height: 4px;
+            background-color: #fff;
+            content: "";
+            top: 0;
+            position: absolute;
+            bottom: 0;
+            margin: auto;
+            left: 0;
+        }
 
-                .more_news_inr h2 span:after {
-                    left: auto;
-                    right: 0;
-                }
+        .more_news_inr h2 span:after {
+            left: auto;
+            right: 0;
+        }
+
         /* Bitcoinminer-PAGE-CSS-END */
 
 
@@ -896,7 +914,7 @@
                 width: 100%;
             }
 
-            .withsidebar .compar_tbl_body .compar_tbl_row > div {
+            .withsidebar .compar_tbl_body .compar_tbl_row>div {
                 padding: 0px 0;
             }
 
@@ -931,7 +949,7 @@
                 display: none !important;
             }
 
-            .withsidebar .compar_tbl_body .compar_tbl_row > div {
+            .withsidebar .compar_tbl_body .compar_tbl_row>div {
                 padding: 0;
             }
 
@@ -969,6 +987,7 @@
                 font-size: 15px;
                 line-height: 22px;
             }
+
             /* Bitcoinminer-PAGE-CSS-END */
 
 
@@ -984,7 +1003,7 @@
                 width: 100%;
             }
 
-            .compar_tbl_body .rating_offers_sec > div {
+            .compar_tbl_body .rating_offers_sec>div {
                 padding: 19px 10px 0;
             }
 
@@ -1023,7 +1042,7 @@
                 display: none !important;
             }
 
-            .withsidebar .compar_tbl_body .compar_tbl_row > div {
+            .withsidebar .compar_tbl_body .compar_tbl_row>div {
                 padding: 10px;
             }
 
@@ -1042,18 +1061,18 @@
                 margin-top: 5px;
             }
 
-                .top_rated_psyc_sec .all_psycs_box ul {
-                    float: left;
-                }
+            .top_rated_psyc_sec .all_psycs_box ul {
+                float: left;
+            }
 
-                    .top_rated_psyc_sec .all_psycs_box ul span {
-                        font-size: 16px;
-                    }
+            .top_rated_psyc_sec .all_psycs_box ul span {
+                font-size: 16px;
+            }
 
-                .top_rated_psyc_sec .all_psycs_box li {
-                    margin-left: 15px;
-                    font-size: 14px;
-                }
+            .top_rated_psyc_sec .all_psycs_box li {
+                margin-left: 15px;
+                font-size: 14px;
+            }
 
             .top_rated_psyc_sec {
                 margin-bottom: 10px;
@@ -1148,6 +1167,7 @@
                 font-size: 2.2rem;
                 margin: 25px 0;
             }
+
             /* Bitcoinminer-PAGE-CSS-END */
 
         }
@@ -1162,7 +1182,7 @@
                 width: 100%;
             }
 
-            .compar_tbl_body .rating_offers_sec > div {
+            .compar_tbl_body .rating_offers_sec>div {
                 padding: 19px 10px 0;
             }
 
@@ -1201,7 +1221,7 @@
                 display: none !important;
             }
 
-            .withsidebar .compar_tbl_body .compar_tbl_row > div {
+            .withsidebar .compar_tbl_body .compar_tbl_row>div {
                 padding: 10px;
             }
 
@@ -1220,18 +1240,18 @@
                 margin-top: 5px;
             }
 
-                .top_rated_psyc_sec .all_psycs_box ul {
-                    float: left;
-                }
+            .top_rated_psyc_sec .all_psycs_box ul {
+                float: left;
+            }
 
-                    .top_rated_psyc_sec .all_psycs_box ul span {
-                        font-size: 16px;
-                    }
+            .top_rated_psyc_sec .all_psycs_box ul span {
+                font-size: 16px;
+            }
 
-                .top_rated_psyc_sec .all_psycs_box li {
-                    margin-left: 15px;
-                    font-size: 14px;
-                }
+            .top_rated_psyc_sec .all_psycs_box li {
+                margin-left: 15px;
+                font-size: 14px;
+            }
 
             .top_rated_psyc_sec {
                 margin-bottom: 10px;
@@ -1340,6 +1360,7 @@
                 font-size: 16px;
                 line-height: 24px;
             }
+
             /* Bitcoinminer-PAGE-CSS-END */
 
 
@@ -1354,7 +1375,7 @@
                 width: 100%;
             }
 
-            .compar_tbl_body .rating_offers_sec > div {
+            .compar_tbl_body .rating_offers_sec>div {
                 padding: 0px 10px 0;
             }
 
@@ -1393,7 +1414,7 @@
                 display: none !important;
             }
 
-            .withsidebar .compar_tbl_body .compar_tbl_row > div {
+            .withsidebar .compar_tbl_body .compar_tbl_row>div {
                 padding: 10px;
             }
 
@@ -1412,18 +1433,18 @@
                 margin-top: 5px;
             }
 
-                .top_rated_psyc_sec .all_psycs_box ul {
-                    float: left;
-                }
+            .top_rated_psyc_sec .all_psycs_box ul {
+                float: left;
+            }
 
-                    .top_rated_psyc_sec .all_psycs_box ul span {
-                        font-size: 16px;
-                    }
+            .top_rated_psyc_sec .all_psycs_box ul span {
+                font-size: 16px;
+            }
 
-                .top_rated_psyc_sec .all_psycs_box li {
-                    margin-left: 15px;
-                    font-size: 14px;
-                }
+            .top_rated_psyc_sec .all_psycs_box li {
+                margin-left: 15px;
+                font-size: 14px;
+            }
 
             .top_rated_psyc_sec {
                 margin-bottom: 10px;
@@ -1541,6 +1562,7 @@
                 line-height: 24px;
                 padding: 0 10px 20px;
             }
+
             /* Bitcoinminer-PAGE-CSS-END */
 
 
@@ -1555,7 +1577,7 @@
                 width: 100%;
             }
 
-            .compar_tbl_body .rating_offers_sec > div {
+            .compar_tbl_body .rating_offers_sec>div {
                 padding: 0px 10px 0;
             }
 
@@ -1595,7 +1617,7 @@
                 display: none !important;
             }
 
-            .withsidebar .compar_tbl_body .compar_tbl_row > div {
+            .withsidebar .compar_tbl_body .compar_tbl_row>div {
                 padding: 10px;
             }
 
@@ -1614,18 +1636,18 @@
                 margin-top: 5px;
             }
 
-                .top_rated_psyc_sec .all_psycs_box ul {
-                    float: left;
-                }
+            .top_rated_psyc_sec .all_psycs_box ul {
+                float: left;
+            }
 
-                    .top_rated_psyc_sec .all_psycs_box ul span {
-                        font-size: 16px;
-                    }
+            .top_rated_psyc_sec .all_psycs_box ul span {
+                font-size: 16px;
+            }
 
-                .top_rated_psyc_sec .all_psycs_box li {
-                    margin-left: 15px;
-                    font-size: 14px;
-                }
+            .top_rated_psyc_sec .all_psycs_box li {
+                margin-left: 15px;
+                font-size: 14px;
+            }
 
             .top_rated_psyc_sec {
                 margin-bottom: 10px;
@@ -1725,11 +1747,11 @@
                 margin-top: 12px;
             }
 
-                .get_instant_access_form h3 {
-                    margin-bottom: 18px;
-                    font-size: 18px;
-                    line-height: 24px;
-                }
+            .get_instant_access_form h3 {
+                margin-bottom: 18px;
+                font-size: 18px;
+                line-height: 24px;
+            }
 
             .form_button_row input[type="submit"] {
                 font-size: 14px;
@@ -1766,22 +1788,24 @@
                 margin: 20px 0;
             }
 
-                .more_news_inr h2 span {
-                    position: relative;
-                    display: inline-block;
-                    padding: 0 40px;
-                }
+            .more_news_inr h2 span {
+                position: relative;
+                display: inline-block;
+                padding: 0 40px;
+            }
 
-                    .more_news_inr h2 span:before, .more_news_inr h2 span:after {
-                        width: 30px;
-                        height: 3px;
-                    }
+            .more_news_inr h2 span:before,
+            .more_news_inr h2 span:after {
+                width: 30px;
+                height: 3px;
+            }
 
             .more_news_bottom_cont {
                 font-size: 16px;
                 line-height: 22px;
                 padding: 0 10px 20px;
             }
+
             /* Bitcoinminer-PAGE-CSS-END */
 
 
@@ -1797,17 +1821,17 @@
         .form_section h3 {
             display: none;
         }
-    </style>
+        </style>
 
-    <style>
+        <style>
         .box-style {
-            box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5);
+            box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
             margin: 25px 0px 0px 0px;
             padding: 25px 30px 30px 30px;
             border-radius: 5px;
             border: 1px solid #333;
             background: white;
-            width: 100%;
+            width: 90%;
             overflow: hidden;
             font-size: 16px;
         }
@@ -1830,10 +1854,10 @@
             width: 48% !important;
         }
 
-            .five_column .compar_tbl_body_plugin .user_features_box_plugin p {
-                color: #464646 !important;
-                font-size: 14px !important;
-            }
+        .five_column .compar_tbl_body_plugin .user_features_box_plugin p {
+            color: #464646 !important;
+            font-size: 14px !important;
+        }
 
         .my-list-style {
             list-style: none;
@@ -1841,14 +1865,14 @@
             margin: 0px;
         }
 
-            .my-list-style li {
-                width: 20%;
-                float: left;
-            }
+        .my-list-style li {
+            width: 20%;
+            float: left;
+        }
 
-                .my-list-style li:nth-child(2n) {
-                    width: 60% !important;
-                }
+        .my-list-style li:nth-child(2n) {
+            width: 60% !important;
+        }
 
         .icons-list {
             position: relative;
@@ -1856,20 +1880,20 @@
             padding-right: 15px;
         }
 
-            .icons-list li {
-                position: relative;
-            }
+        .icons-list li {
+            position: relative;
+        }
 
-            .icons-list img {
-                position: absolute;
-                left: 0px;
-                top: 0px;
-            }
+        .icons-list img {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
 
-            .icons-list p {
-                padding-left: 20px;
-                position: relative;
-            }
+        .icons-list p {
+            padding-left: 20px;
+            position: relative;
+        }
 
         .btn-style {
             background: #0aa1c6;
@@ -1968,84 +1992,122 @@
             }
         }
 
-        .compar_tbl_row_plugin:nth-child(2n+1)
-        {
+        .compar_tbl_row_plugin:nth-child(2n+1) {
             background: #f1fafc;
         }
-    </style>
+        </style>
 
 
 
 
-    <link href="{{url('invest_style.css')}}" rel="stylesheet" />
-    <!-- Global site tag (gtag.js) - Google Ads: 813488736 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-813488736"></script>
-    <script>
+        <link href="{{url('invest_style.css')}}" rel="stylesheet" />
+        <!-- Global site tag (gtag.js) - Google Ads: 813488736 -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-813488736"></script>
+        <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'AW-813488736');
-    </script>
-</head>
+        </script>
+    </head>
+
+    <!-- ******************* The Navbar Area ******************* -->
+    <div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
+        <a class="skip-link sr-only sr-only-focusable" href="#content">Skip to content</a>
+        <div class="container">
+            <div class="row">
+                <div class="col-8 col-lg-3 header-left">
+                    <!-- Your site title as branding in the menu -->
+                    <a href="index.html" class="navbar-brand custom-logo-link" rel="home"><img
+                            src="{{url('/img/comparewarrior.png')}}" style="margin-top:10px" class="img-fluid"
+                            alt="Wealth Advisor PPC" /></a><!-- end custom logo -->
+                </div>
+                <div class="col-4 col-lg-9 header-right">
+                    <div class="header-right-icons text-right">
+                        <aside id="media_image-2" class="widget widget_media_image"><img width="1" height="1"
+                                src="{{url('/img/SSL.svg')}}" class="image wp-image-76  attachment-medium size-medium"
+                                alt="" style="max-width: 100%; height: auto;" /></aside>
+                    </div>
+                </div>
+            </div>
+        </div><!-- .container -->
+    </div><!-- #wrapper-navbar end -->
+    <style>
+    footer#colophon {
+        /* display: none;*/
+    }
+
+    .home-review .banner-inner {
+        padding-bottom: 0px !important;
+    }
+
+    .home-banner.home-review {
+        height: 1000px;
+    }
+
+    span.a-size-base.s-underline-text {
+        display: initial;
+    }
+
+    span.a-size-base.a-color-secondary {
+        display: block;
+    }
+
+    a.a-link-normal.s-underline-text.s-underline-link-text.s-link-style.a-text-normal.btn-style {
+        font-size: x-large;
+    }
+    </style>
 
 
-<script>
+    <script>
+    function changeAdwordURL() {
+        var url_string = window.location.href;
+        var url = new URL(url_string);
+        var keyword = url.searchParams.get("keyword");
+        var country = url.searchParams.get("country");
+        if (keyword != null && country != null) {
+            for (var i = 0; i < document.querySelectorAll('#adword_url_sid').length; i++) {
+                var node_current_link = document.querySelectorAll('#adword_url_sid')[i].href;
+                var node_new_link = node_current_link.concat(`&s1=${country}&s2=${keyword}`);
+                document.querySelectorAll('#adword_url_sid')[i].href = node_new_link
+            }
 
-        function changeAdwordURL()
-        {
-            var url_string = window.location.href;
-            var url = new URL(url_string);
-            var keyword = url.searchParams.get("keyword");
-            var country = url.searchParams.get("country");
-            if(keyword != null && country != null)
-            {
-                for(var i=0;i<document.querySelectorAll('#adword_url_sid').length;i++)
-                {
-                    var node_current_link = document.querySelectorAll('#adword_url_sid')[i].href;
-                    var node_new_link = node_current_link.concat(`&s1=${country}&s2=${keyword}`);
-                    document.querySelectorAll('#adword_url_sid')[i].href = node_new_link
-                }
-
-                for(var i=0;i<document.querySelectorAll('#adword_url_tid').length;i++)
-                {
-                    var node_current_link = document.querySelectorAll('#adword_url_tid')[i].href;
-                    var node_new_link = node_current_link.concat(`&tid1=${country}&tid2=${keyword}`);
-                    document.querySelectorAll('#adword_url_tid')[i].href = node_new_link
-                }
+            for (var i = 0; i < document.querySelectorAll('#adword_url_tid').length; i++) {
+                var node_current_link = document.querySelectorAll('#adword_url_tid')[i].href;
+                var node_new_link = node_current_link.concat(`&tid1=${country}&tid2=${keyword}`);
+                document.querySelectorAll('#adword_url_tid')[i].href = node_new_link
             }
         }
-          window.onload = changeAdwordURL;
+    }
+    window.onload = changeAdwordURL;
     </script>
 
-        <script type="text/javascript">
-        function comparisonTableOrder()
-        {
-            var url_string = window.location.href;
-            var url = new URL(url_string);
-            var rank1 = url.searchParams.get("rank1");
-            var rank2 = url.searchParams.get("rank2");
-            var rank3 = url.searchParams.get("rank3");
-            var rank4 = url.searchParams.get("rank4");
-            var current_order = ['helium10','zonguru','virallaunch','amzscout'];
-            var current_ratings = [9.8,9.5,9.2,8.9];
+    <script type="text/javascript">
+    function comparisonTableOrder() {
+        var url_string = window.location.href;
+        var url = new URL(url_string);
+        var rank1 = url.searchParams.get("rank1");
+        var rank2 = url.searchParams.get("rank2");
+        var rank3 = url.searchParams.get("rank3");
+        var rank4 = url.searchParams.get("rank4");
+        var current_order = ['helium10', 'zonguru', 'virallaunch', 'amzscout'];
+        var current_ratings = [9.8, 9.5, 9.2, 8.9];
 
-            if(rank1 != null && rank2 != null && rank3 != null && rank4 != null)
-            {
-               var change_current_order = [rank1,rank2,rank3,rank4];
-               $(`#${rank2}`).insertAfter(`#${rank1}`);
-               $(`#${rank3}`).insertAfter(`#${rank2}`);
-               $(`#${rank4}`).insertAfter(`#${rank3}`);
+        if (rank1 != null && rank2 != null && rank3 != null && rank4 != null) {
+            var change_current_order = [rank1, rank2, rank3, rank4];
+            $(`#${rank2}`).insertAfter(`#${rank1}`);
+            $(`#${rank3}`).insertAfter(`#${rank2}`);
+            $(`#${rank4}`).insertAfter(`#${rank3}`);
 
-               $(`#${rank1}`).find('samp').text(current_ratings[0]);
-               $(`#${rank2}`).find('samp').text(current_ratings[1]);
-               $(`#${rank3}`).find('samp').text(current_ratings[2]);
-               $(`#${rank4}`).find('samp').text(current_ratings[3]);
-            }
+            $(`#${rank1}`).find('samp').text(current_ratings[0]);
+            $(`#${rank2}`).find('samp').text(current_ratings[1]);
+            $(`#${rank3}`).find('samp').text(current_ratings[2]);
+            $(`#${rank4}`).find('samp').text(current_ratings[3]);
         }
-        comparisonTableOrder();
-</script>
-
-
-
-
+    }
+    comparisonTableOrder();
+    </script>

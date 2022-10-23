@@ -1880,7 +1880,7 @@
             font-weight: 600;
             text-align: center;
             font-size: 17px;
-            width: 100%;
+            width: 90%;
             border-radius: 8px !important;
             text-decoration: none !important;
         }
